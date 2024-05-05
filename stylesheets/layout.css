@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color: var(--color-ui-dark);
+    flex: 1 1 15%;
+}
+
+.main-content {
+    background-color: var(--color-ui-mid);
+    flex: 1 1 85%;
+}

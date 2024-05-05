@@ -28,6 +28,10 @@ body {
     font-size: 1.6rem;
 }
 
+html, body, .container {
+    height: 100%;
+}
+
 a {
     text-decoration: none;
 }
