@@ -1,0 +1,27 @@
+.btn {
+    background-color: transparent;
+    border: 1px solid var(--color-primary-dark);
+    border-radius: 20px;
+    color: var(--color-primary);
+    cursor: pointer;
+    font-size: 1.4rem;
+    padding: 1.2rem 2rem;
+    text-transform: uppercase;
+}
+
+.btn > i {
+    color: var(--color-text-light);
+    vertical-align: middle;
+}
+
+.btn, .btn > i {
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    background-color: var(--color-primary);
+}
+
+.btn:hover, .btn:hover > i {
+    color: #333;
+}
