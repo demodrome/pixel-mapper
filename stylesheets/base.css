@@ -1,0 +1,41 @@
+:root {
+    --color-primary: rgb(19, 231, 168);
+    --color-primary-dark: rgb(14, 187, 135);
+    --color-ui-light: rgb(34, 40, 54);
+    --color-ui-mid: rgb(17, 25, 38);
+    --color-ui-dark: rgb(14, 20, 32);
+    --color-text-light: rgb(222, 223, 228);
+    --color-text-mid: rgb(184, 185, 189);
+    --color-text-dark: rgb(131, 132, 136);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--color-text-mid);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input, button {
+    font: inherit;
+}
