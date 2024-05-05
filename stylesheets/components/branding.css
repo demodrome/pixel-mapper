@@ -1,0 +1,21 @@
+.branding {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.branding__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.branding__text-primary {
+    color: var(--color-primary);
+    font-size: 2.8rem;
+}
+
+.branding__text-secondary {
+    color: var(--color-text-dark);
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
